@@ -174,7 +174,9 @@ function App() {
   return (
     <>
       <div ref={container} className='flex w-full h-full justify-between overflow-hidden items-center bg-black'>
-        <div className='flex-1 flex flex-col justify-between border-r-2 h-full card1' onClick={() => changeRoute(GREEN)}>
+        <div className='flex-1 flex flex-col justify-between border-r-2 h-full card1'
+        // onClick={() => changeRoute(GREEN)}
+        >
           {/* <p className='self-start'>01</p> */}
           <div className='names'>
             <p className='number number1 font-semibold'>01</p>
@@ -183,7 +185,9 @@ function App() {
           </div>
           <img src="green-guy-1.png" style={{ opacity: 0 }} className='w-3/4 h-3/4 self-end character1' alt="" />
         </div>
-        <div className='flex-1 flex flex-col justify-between border-r-2 card2 h-full' onClick={() => changeRoute(YELLOW)}>
+        <div className='flex-1 flex flex-col justify-between border-r-2 card2 h-full'
+        // onClick={() => changeRoute(YELLOW)}
+        >
           <div className='names'>
             <p className='number number2 font-semibold'>02</p>
             <p className='font-bold number2'>Octane</p>
@@ -191,7 +195,9 @@ function App() {
           </div>
           <img src="yellow-guy-1.png" style={{ opacity: 0 }} className='w-3/4 h-3/4 self-end character2' alt="" />
         </div>
-        <div className='flex-1 flex flex-col justify-between border-r-2 card3 h-full' onClick={() => changeRoute(BLUE)}>
+        <div className='flex-1 flex flex-col justify-between border-r-2 card3 h-full'
+        // onClick={() => changeRoute(BLUE)}
+        >
           <div className='names'>
             <p className='number number3 font-semibold'>03</p>
             <p className='font-bold number3'>Crypto</p>
@@ -199,7 +205,9 @@ function App() {
           </div>
           <img src="blue-guy-1.png" style={{ opacity: 0 }} className='w-auto h-3/4 self-end character3' alt="" />
         </div>
-        <div className='flex-1 flex flex-col justify-between border-r-2 card4 h-full' onClick={() => changeRoute(RED)}>
+        <div className='flex-1 flex flex-col justify-between border-r-2 card4 h-full'
+        // onClick={() => changeRoute(RED)}
+        >
           <div className='names'>
             <p className='number number4 font-semibold'>04</p>
             <p className='font-bold number4'>Ash</p>
